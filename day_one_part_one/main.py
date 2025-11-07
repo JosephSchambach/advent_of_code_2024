@@ -16,7 +16,7 @@ def problem_one(list1, list2):
         s += abs(list1[i] - list2[i])
     return s
     
-with open('day_one/input.txt', 'r') as f:
+with open('day_one_part_one/input.txt', 'r') as f:
     TEST_INPUT = f.read()
 list1, list2 = parser(TEST_INPUT)
 s = problem_one(list1, list2)
