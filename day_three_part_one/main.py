@@ -10,7 +10,7 @@ def problem_three(matches):
         val += mul
     return val
 
-with open('day_three/input.txt', 'r') as f:
+with open('day_three_part_one/input.txt', 'r') as f:
     TEST_INPUT = f.read()
 matches = memory_parser(TEST_INPUT, r'mul\((\d+),(\d+)\)')
 mul = problem_three(matches)
